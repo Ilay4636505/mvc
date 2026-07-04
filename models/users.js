@@ -1,4 +1,4 @@
-// -- Imports. - -
+// -- imports. --
 const mongoose = require('mongoose');
 
 // -- define schema -- 

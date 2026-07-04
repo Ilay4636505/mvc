@@ -7,7 +7,7 @@ const getUser = async (req,res) => {
     
     const user = await User.getUser({name});
     if (!user) {
-        return res.status(404).json({"message": "Not found"}) // message part is not nessesery.
+        return res.status(404).json({"message": "Not found"})
     }
     return res.status(200).json(user)
 }
